@@ -14,10 +14,7 @@ class DummyAction implements RotatorAction
         public Repository $cache,
         public int $a = 0,
         public int $b = 0,
-    ) {
-    }
+    ) {}
 
-    public function handle(AppKeyRotator $appKeyRotator, array $config)
-    {
-    }
+    public function handle(AppKeyRotator $appKeyRotator, array $config) {}
 }

@@ -13,10 +13,7 @@ class DummyBeforeAction implements BeforeRotatorAction
         public Repository $cache,
         public int $a = 0,
         public int $b = 0,
-    ) {
-    }
+    ) {}
 
-    public function handle(array $config)
-    {
-    }
+    public function handle(array $config) {}
 }

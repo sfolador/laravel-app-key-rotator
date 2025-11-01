@@ -8,9 +8,7 @@ use Rawilk\AppKeyRotator\Contracts\BeforeRotatorAction;
 
 class BackupEnvAction implements BeforeRotatorAction
 {
-    public function __construct(protected string $filename)
-    {
-    }
+    public function __construct(protected string $filename) {}
 
     public function handle(array $config)
     {
